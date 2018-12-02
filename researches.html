@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" href="img/dnalogo.gif">
+<title>School of Biochemistry</title>
+
+<head>
+	<title>Biochemistry</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	
+	<!-- Footer Font Cookie -->
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+	
+	<!--Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- Self-Made -->
+	<link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+	<!-- Header Jumbotron -->
+	<div class="container-fluid mainhead">
+		<div class="container jumbotron">
+			<div class="row">	
+				<div class="col-md-2 col-xs-2 col-sm-2">
+					<a href="index.html"><img src="img/logo.png" class="logo"></a>		
+				</div>
+				<div class="col-md-8 col-xs-8 col-sm-8 institute">
+					<h1>School of Bi<i class="fas fa-atom"></i>chemistry<span class="estd">Estd. 1984</span><br><span class="davv">Devi Ahilya Vishwavidyalaya, Indore (M.P.)</span></h1>
+				</div>
+				<div class="col-md-2 col-xs-2 col-sm-2">
+					<img src="img/dnasmall.gif" class="gifcus">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	
+	<!-- Navigation Bar -->
+	<hr class="abovenav">
+	<div class="navicustom sticky-top">
+		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+			<div class="container-fluid" id="inner">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav m-auto">
+						<li class="nav-item"><a class="nav-link r p" href="index.html"><strong>HOME</strong></a></li>
+						<li class="nav-item"><a class="nav-link r p" href="aboutus.html" style="width: 8em;"><strong>ABOUT US</strong></a></li>
+						<li class="nav-item dropdown"><a class="nav-link r p" style="width: 9em;" ><strong>PROGRAMS &nbsp;</strong><i class="fas fa-caret-down"></i></a>
+							<div class="dropdown-menu ">
+								<div class="dropdown-item" id="dr"><a href="msc.html" >M.Sc.</a></div>
+								<div class="dropdown-item" id="dr"><a href="phd.html">Ph.D.</a></div>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link r p" href="faculty.html"><strong>FACULTY</strong></a></li>
+						<li class="nav-item"><a class="nav-link r p" href="researches.html"><strong>RESEARCHERS</strong></a></li>
+						<li class="nav-item"><a class="nav-link r p" href="activities.html"><strong>ACTIVITIES</strong></a></li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link r p" href="student.html" style="width: 8em;"><strong>STUDENTS&nbsp;</strong><i class="fas fa-caret-down"></i></a>
+							<div class="dropdown-menu ">
+								<div class="dropdown-item" id="dr"><a href="student.html" >Academic Calender</a></div>
+								<div class="dropdown-item" id="dr"><a href="student.html">Course Material &amp; Syllabus</a></div>	
+								<div class="dropdown-item" id="dr"><a href="student.html">Time Table</a></div>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link r p" target="_blank" href="http://www.dauniv.ac.in/"><strong>DAVV</strong></a></li>
+					</ul>					
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<!-- Side Nav -->
+	<div class="icon-bar">
+		<a href="student.html#student-timetable" class="timetable" data-toggle="tooltip" title="Time Table" data-placement="right"><i class="far fa-clipboard"></i><div class="icon-bar-title">Time Table</div></a>
+		<a href="student.html#student-syllabus" class="syllabus" data-toggle="tooltip" title="Syllabus" data-placement="right"><i class="fas fa-book"></i><div class="icon-bar-title">Syllabus</div></a> 
+		<a href="student.html#student-calender" class="calendar"  data-toggle="tooltip" title="Calender" data-placement="right"><i class="fas fa-calendar-alt"></i><div class="icon-bar-title">Calender</div></a> 
+		<a href="activities.html" class="notices" data-toggle="tooltip" title="Notices" data-placement="right"><i class="fas fa-bell"></i><div class="icon-bar-title">Notices</div></a> 
+		<script>
+			$(document).ready(function(){
+				$('[data-toggle="tooltip"]').tooltip();   
+			});
+		</script>
+	</div>
+
+<!--main container-->
+	<div class="container-fluid" id="reseacher">
+
+		<!--Scientists-->
+		<div class="row" id="sub">
+			<div class="col-md">
+				<div class="subhead-line">
+					<h1 class="display-4">Scientist&nbsp;<i class="fas fa-user-md"></i></h1>
+				</div>
+			</div>
+		</div>
+		<!--end scientists-->
+		<div class="container">
+			<div class="card recard">
+				<div class="row">
+					<div class="col-md-3" >
+						<img src="img/r20.jpg" class="card-image  image-responsive img-thumbnail reimage">
+					</div>
+					<div class="col-md-6" style="padding-bottom: 10px; margin-left: 1.5em;">
+						<div class="card-block" style="padding-top: 15px;">
+							<h6 class="card-title" style="text-align: center;"><strong>Dr. Amit Singh Yadav </strong></h6>
+							<div style="text-align: center;"><span class="profile-topic"><strong>Designation : </strong></span> <span class="profile-topic-detail"><br>Senior Research Associate(Pool Scientist)</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card recard">
+				<div class="row">
+					<div class="col-md-12" style="padding-bottom: 10px;">
+						<div class="card-block" style="padding-top: 15px;">
+							<h6 class="card-title" style="text-align: center;"><strong>Dr. Sunita Kataria</strong></h6>
+							<div style="text-align: center;"><span class="profile-topic"><strong>Designation : </strong></span> <span class="profile-topic-detail"><br>Woman Scientist</span></div>
+						</div>
+					</div>
+				</div>
+			</div><div class="card recard">
+				<div class="row">
+					<div class="col-md-12" style="padding-bottom: 10px;">
+						<div class="card-block" style="padding-top: 15px;">
+							<h6 class="card-title" style="text-align: center;"><strong>Dr. Sunita Shukla</strong></h6>
+							<div style="text-align: center;"><span class="profile-topic"><strong>Designation : </strong></span> <span class="profile-topic-detail"><br>Woman Scientist</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--AWARDEES--> 
+
+		<div class="row" id="sub">
+			<div class="col-md">
+				<div class="subhead-line">
+					<h1 class="display-4">Awardees&nbsp;<i class="fas fa-award "></i></h1>
+				</div>
+			</div>
+		</div>
+		<!--END AWARDEES-->
+		<div class="container" >
+			<div class="card recard">
+				<div class="row">
+					<div class="col-md-3">
+						<img src="img/r11.jpg" class="img-thumbnail image-responsive card-image reimage" >
+					</div>
+					<div class="col-md-9" style="padding-bottom: 10px;">
+						<div class="card-block" style="padding-top: 15px;">
+							<h6 class="card-title"><strong>Antariksh Tyagi</strong></h6>
+
+							<div><span class="profile-topic"><strong>Topic :
+							</strong> </span><span class="profile-topic-detail">Studies on global gene expression and adaptability of different ecotypes of Arabidopsis thaliana along altitudinal gradient.</span></div>
+							<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. S.M. Gokhale</span></div>
+							<div><span class="profile-topic"><strong>Co-Superviser : </strong></span> <span class="profile-topic-detail">Dr. Sribash Roy</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card recard">
+				<div class="row">
+					<div class="col-md-3" >
+						<img src="img/r9.jpg" class="card-image  image-responsive img-thumbnail reimage">
+					</div>
+					<div class="col-md-9" style="padding-bottom: 10px;">
+						<div class="card-block" style="padding-top: 15px;">
+							<h6 class="card-title"><strong>Sharad Saurabh</strong></h6>
+
+							<div><span class="profile-topic"><strong>Topic :
+							</strong> </span><span class="profile-topic-detail">	
+							Purification and characterization of MBLs from wild species of genus Allium and cloning of genes.</span></div>
+							<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. Meeta  Jain</span></div>
+							<div><span class="profile-topic"><strong>Co-Superviser : </strong></span> <span class="profile-topic-detail">Dr. P.K. Singh</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card recard" >
+				<div class="row">
+					<div class="col-md-3" >
+						<img src="img/r16.jpg" class="card-image  image-responsive img-thumbnail reimage">
+					</div>
+					<div class="col-md-9" style="padding-bottom: 10px;">
+						<div class="card-block" style="padding-top: 15px;">
+							<h6 class="card-title"><strong>Samatha Gunapati</strong></h6>
+							<div><span class="profile-topic"><strong>Topic :
+							</strong> </span><span class="profile-topic-detail">	
+								Isolation and characterization of Drought related NAC
+							transcription factor from Cotton roots (Gossypium herbacium).</span></div>
+							<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. REKHA GADRE</span></div>
+							<div><span class="profile-topic"><strong>Co-Superviser : </strong></span> <span class="profile-topic-detail">Dr. Vidhu A. Sane</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="card recard">
+				<div class="row">
+					<div class="col-md-3" >
+						<img src="img/r3.jpg" class="card-image  image-responsive img-thumbnail reimage">
+					</div>
+					<div class="col-md-9" style="padding-bottom: 10px;">
+						<div class="card-block" style="padding-top: 15px;">
+							<h6 class="card-title"><strong>Ankita Joshi</strong></h6>
+							<div><span class="profile-topic"><strong>Topic :
+							</strong> </span><span class="profile-topic-detail">Antioxidative, antidiabetic and antiinflammatory activity of some of the herbal products.
+							</span></div>
+							<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. Deepak Bhatnagar</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card recard">
+				<div class="row">
+					<div class="col-md-3" >
+						<img src="img/r4.jpg" class="card-image  image-responsive img-thumbnail reimage">
+					</div>
+					<div class="col-md-9" style="padding-bottom: 10px;">
+						<div class="card-block" style="padding-top: 15px;">
+							<h6 class="card-title"><strong>Swati Tiwary</strong></h6>
+							<div><span class="profile-topic"><strong>Topic :
+							</strong> </span><span class="profile-topic-detail">Osmotic stress induced changes in chlorophyll metabolism and antioxidative system in maize leaves.
+
+							</span></div>
+							<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. Meeta Jain</span></div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card recard">
+				<div class="row">
+					<div class="col-md-3" >
+						<img src="img/r6.jpg" class="card-image  image-responsive img-thumbnail reimage">
+					</div>
+					<div class="col-md-9" style="padding-bottom: 10px;">
+						<div class="card-block" style="padding-top: 15px;">
+							<h6 class="card-title"><strong>Ankit Kelotra</strong></h6>
+							
+							<div><span class="profile-topic"><strong>Topic :
+							</strong> </span><span class="profile-topic-detail">	
+							Computational Drug design for some crucial target proteins in psoriasis.</span></div>
+							<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. S.M. Gokhale</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card recard">
+				<div class="row">
+					<div class="col-md-3" >
+						<img src="img/r5.jpg" class="card-image  image-responsive img-thumbnail reimage">
+					</div>
+					<div class="col-md-9" style="padding-bottom: 10px;">
+						<div class="card-block" style="padding-top: 15px;">
+							<h6 class="card-title"><strong>Ritu Tyagi</strong></h6>
+							<div><span class="profile-topic"><strong>Topic :
+							</strong> </span><span class="profile-topic-detail">	
+							Metabonomic approach for the identification of biomarker for tungsten based alloy heavy metal induced chemical toxicity using NMR spectroscopy and imaging.</span></div>
+							<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. Deepak Bhatnagar</span></div>
+							<div><span class="profile-topic"><strong>Co-Superviser : </strong></span> <span class="profile-topic-detail">Dr. Poonam Rana</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card recard">
+				<div class="row">
+					<div class="col-md-3" >
+						<img src="img/r8.jpg" class="card-image  image-responsive img-thumbnail reimage">
+					</div>
+					<div class="col-md-9" style="padding-bottom: 10px;">
+						<div class="card-block" style="padding-top: 15px;">
+							<h6 class="card-title"><strong>Dipti Dixit</strong></h6>
+
+							<div><span class="profile-topic"><strong>Topic :
+							</strong> </span><span class="profile-topic-detail">	
+							Antioxidant and radioprotective effects of herbal and natural products against gamma irradiation induced oxidative stress.</span></div>
+							<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. Deepak Bhatnagar</span></div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card recard">
+				<div class="row">
+					<div class="col-md-3" >
+						<img src="img/r10.jpg" class="card-image  image-responsive img-thumbnail reimage">
+					</div>
+					<div class="col-md-9" style="padding-bottom: 10px;">
+						<div class="card-block" style="padding-top: 15px;">
+							<h6 class="card-title"><strong>Prakash Malviya</strong></h6>
+
+							<div><span class="profile-topic"><strong>Topic :
+							</strong> </span><span class="profile-topic-detail">	
+								Studies on physiological and biochemical changes in relation to grain yield, quality and drought tolerance in durum wheat genotypes.
+
+							</span></div>
+							<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. Meeta Jain</span></div>
+							<div><span class="profile-topic"><strong>Co-Superviser : </strong></span> <span class="profile-topic-detail">Dr. S.V. Saiprasad</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card recard">
+				<div class="row">
+					<div class="col-md-3" >
+						<img src="img/r17.jpg" class="card-image  image-responsive img-thumbnail reimage">
+					</div>
+					<div class="col-md-9" style="padding-bottom: 10px;">
+						<div class="card-block" style="padding-top: 15px;">
+							<h6 class="card-title"><strong>Priyanka Mishra</strong></h6>
+							
+							<div><span class="profile-topic"><strong>Topic :
+							</strong> </span><span class="profile-topic-detail">Structural and molecular aspects of membrane linked function of tachykinin peptides in neurodegeneration.</span></div>
+							<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. Deepak Bhatnagar</span></div>
+							<div><span class="profile-topic"><strong>Co-Superviser : </strong></span> <span class="profile-topic-detail">Dr. Sudha M. Cowsik</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card recard">
+				<div class="row">
+					<div class="col-md-3" >
+						<img src="img/r15.jpg" class="card-image  image-responsive img-thumbnail reimage">
+					</div>
+					<div class="col-md-9" style="padding-bottom: 10px;">
+						<div class="card-block" style="padding-top: 15px;">
+							<h6 class="card-title"><strong> Sonal Dhamgaye</strong></h6>
+
+							<div><span class="profile-topic"><strong>Topic :
+							</strong> </span><span class="profile-topic-detail">Evaluation of Salinity Stress on the Key Enzymes of Nitogen Assimilation in Phaseolus vulgaris.</span></div>
+							<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. Rekha Gadre</span></div>
+							<div><span class="profile-topic"><strong>E-Mail : </strong></span> <span class="profile-topic-detail">sonal.dhamgaye@gmail.com</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card recard">
+				<div class="row">
+					<div class="col-md-3" >
+						<img src="img/r14.jpg" class="card-image  image-responsive img-thumbnail reimage">
+					</div>
+					<div class="col-md-9" style="padding-bottom: 10px;">
+						<div class="card-block" style="padding-top: 15px;">
+							<h6 class="card-title"><strong>Jayesh Vaishnav</strong></h6>
+							<div><span class="profile-topic"><strong>E-Mail :
+							</strong> </span><span class="profile-topic-detail">jayeshvaishnav06@gmail.com</span>
+						</div>
+						<div><span class="profile-topic"><strong>Topic :
+						</strong> </span><span class="profile-topic-detail">	
+						Effect of Salt Stress on Chlorophyll Metabolism and Antioxidant System in Maize.</span></div>
+						<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. Meeta Jain</span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card recard">
+			<div class="row">
+				<div class="col-md-3" >
+					<img src="img/r13.jpg" class="card-image  image-responsive img-thumbnail reimage">
+				</div>
+				<div class="col-md-9" style="padding-bottom: 10px;">
+					<div class="card-block" style="padding-top: 15px;">
+						<h6 class="card-title"><strong>Vaishali Mourya</strong></h6>
+						<div><span class="profile-topic"><strong>YEAR :
+						</strong> </span><span class="profile-topic-detail">2016</span>
+					</div>
+					<div><span class="profile-topic"><strong>Topic :
+					</strong> </span><span class="profile-topic-detail">Association mapping for protein content in soybean germplasm lines.</span></div>
+					<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. Meeta Jain</span></div>
+					<div><span class="profile-topic"><strong>Co-Superviser : </strong></span> <span class="profile-topic-detail">Dr. Anita Rani</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="card recard">
+		<div class="row">
+			<div class="col-md-3" >
+				<img src="img/r12.jpg" class="card-image  image-responsive img-thumbnail reimage">
+			</div>
+			<div class="col-md-9" style="padding-bottom: 10px;">
+				<div class="card-block" style="padding-top: 15px;">
+					<h6 class="card-title"><strong>Reena Rawal</strong></h6>
+					
+					<div><span class="profile-topic"><strong>Topic :
+					</strong> </span><span class="profile-topic-detail">Introgression of null allele of lipoxygenase-2 into high yielding soybean cultivar using Marker-Assisted Selection.</span></div>
+					<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. S.M. Gokhale</span></div>
+					<div><span class="profile-topic"><strong>Co-Superviser : </strong></span> <span class="profile-topic-detail">Dr. Vineet Kumar </span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="card recard">
+		<div class="row">
+			<div class="col-md-3" >
+				<img src="img/r7.jpg" class="card-image  image-responsive img-thumbnail reimage">
+			</div>
+			<div class="col-md-9" style="padding-bottom: 10px;">
+				<div class="card-block" style="padding-top: 15px;">
+					<a href="#"><h6 class="card-title"><strong>Seema Kelotra</strong></h6></a>
+
+					<div><span class="profile-topic"><strong>Topic :
+					</strong> </span><span class="profile-topic-detail">Ligand binding studies with some caspases using computational methods.</span></div>
+					<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. Meeta Jain</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="card recard">
+		<div class="row">
+			<div class="col-md-12" style="padding-bottom: 10px;">
+				<div class="card-block" style="padding-top: 15px;">
+					<h6 class="card-title" style="text-align: center;"><strong>Venkat Are</strong></h6>
+					<div style="text-align: center;"><span class="profile-topic"><strong>Topic : </strong></span> <span class="profile-topic-detail">Structural and functional characterization of aminopeptidase P fold proteins.</span></div>
+					<div style="text-align: center;"><span class="profile-topic"><strong>Supervisor : </strong></span> <span class="profile-topic-detail">Dr. Rekha Gadre</span></div>
+					<div style="text-align: center;"><span class="profile-topic"><strong>Co-Supervisor : </strong></span> <span class="profile-topic-detail">Dr. Ravindra Makde</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--ONGOING-->
+	<div class="row" id="sub">
+		<div class="col-md">
+			<div class="subhead-line">
+				<h1 class="display-4">Ongoing&nbsp;<i class="fas fa-user-graduate"></i></h1>
+			</div>
+		</div>
+	</div>
+
+	<!--END ONGOING-->
+	<div class="container" >
+		<div class="card recard">
+			<div class="row">
+				<div class="col-md-3" >
+					<img src="img/r2.jpg" class="card-image  image-responsive img-thumbnail reimage">
+				</div>
+				<div class="col-md-9" style="padding-bottom: 10px;">
+					<div class="card-block" style="padding-top: 15px;">
+						<a href="#"><h6 class="card-title"><strong>Radhika Chinchalkar</strong></h6></a>
+
+						<div><span class="profile-topic"><strong>Topic :
+						</strong> </span><span class="profile-topic-detail">Studies on effects of metallic nutrients, Mn, Ni and Zn in relation to chlorophyll metabolism and oxidative stress in maize.</span></div>
+						<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. Rekha Gadre</span></div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card recard">
+			<div class="row">
+				<div class="col-md-3" >
+					<img src="img/r1.jpg" class="card-image  image-responsive img-thumbnail reimage">
+				</div>
+				<div class="col-md-9" style="padding-bottom: 10px;">
+					<div class="card-block" style="padding-top: 15px;">
+						<h6 class="card-title"><strong>Vinny Punjabi</strong></h6>
+
+						<div><span class="profile-topic"><strong>Topic :
+						</strong> </span><span class="profile-topic-detail">Analysis of alterations of erythrocyte proteins exposed to oxidative stress.</span></div>
+						<div><span class="profile-topic"><strong>Superviser : </strong></span> <span class="profile-topic-detail">Dr. S.M. Gokhale</span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card recard">
+			<div class="row">
+				<div class="col-md-12" style="padding-bottom: 10px;">
+					<div class="card-block" style="padding-top: 15px;">
+						<h6 class="card-title" style="text-align: center;"><strong>Kririka Pathak</strong></h6>
+						<div style="text-align: center;"><span class="profile-topic"><strong>Topic : </strong></span> <span class="profile-topic-detail">Interactive Effects Of Heavy Metals (Al,Ni,Mn) In Relation To Oxidative Stress And Nitrogen Assimilation In Wheat(Triticum Species).</span></div>
+						<div style="text-align: center;"><span class="profile-topic"><strong>Year : </strong></span> <span class="profile-topic-detail">2016</span></div>
+						<div style="text-align: center;"><span class="profile-topic"><strong>Supervisor : </strong></span> <span class="profile-topic-detail">Dr. Rekha Gadre</span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="card recard">
+			<div class="row">
+				<div class="col-md-12" style="padding-bottom: 10px;">
+					<div class="card-block" style="padding-top: 15px;">
+						<h6 class="card-title" style="text-align: center;"><strong>Mamta Hirve</strong></h6>
+						<div style="text-align: center;"><span class="profile-topic"><strong>Year : </strong></span> <span class="profile-topic-detail">2015</span></div>
+						<div style="text-align: center;"><span class="profile-topic"><strong>Supervisor : </strong></span> <span class="profile-topic-detail">Dr. Meeta Jain</span></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+</div>
+
+
+<!-- ---------------UpArrow-------------------------- -->
+<a href="#" class="back-to-top" style="display: inline;">
+	<i class="fa fa-arrow-circle-up"></i>
+</a>
+
+
+
+
+	<!-- ---------------------Footer -------------------------- -->
+	<footer>
+		<div class="container-fluid" id="cf">
+			<div class="row" id="e">
+				<div class="col-md-3" style="padding-top: 20px; padding-bottom: 20px;">
+
+					<table  align="center">
+						<tr align="center">
+							<td><a href="index.html"><img src="img/davvlogotrans.png" class="image-responsive" width="128px" height="118px"></a></td>
+						</tr>
+						<tr align="center" valign="bottom">
+							<td ><h3>School of<span style="color: #23ff3f; font-size: 30px; font: normal 30px 'Cookie', cursive;">&nbsp;Biochemistry</span></h3></td>
+						</tr>
+
+					</table>
+
+					<hr style="background-color: grey; width: 100%;">
+
+					<table align="center" id="it">
+						<tr >
+							<td width="58px" valign="top"  >
+								<i class="fa fa-map-marker-alt "></i>
+							</td>
+							<td style="line-height: 1;">
+								<span>Khandwa Rd, D.A.V.V., Bhawakuwa, Davv Takshila Parisar, Indore, Madhya Pradesh 452001</span> 
+							</td>
+						</tr>
+
+						<tr style="height: 42px;">
+							<td>
+								<i class="fas fa-phone-volume"></i>
+							</td>
+							<td>
+
+								<span>0731-2460276&nbsp;&nbsp;,&nbsp;&nbsp;0731-2590783</span>
+							</td>
+						</tr>
+						<tr style="height: 42px;">
+							<td>
+								<i class="fas fa-envelope-open"></i>
+							</td>
+							<td>
+								<span>support@company.com</span>
+							</td>
+						</tr>
+					<!-- 	<tr style="height: 42px;">
+							<td>
+								<i class="fas fa-fax"></i>
+							</td>
+							<td>
+								<span>fax number</span>
+							</td>
+						</tr> -->
+					</table>
+				</div>
+				<div class="col-md-4" style="padding-top: 60px; " >
+					<h4 align="center">
+						QUICK LINKS
+					</h4>
+					<div class="row">
+						<div col-md-6 style="margin: auto;"> 
+							<ul style="color: #cfd8dc; line-height: 3.5; list-style: none; " id="ql">
+								<a href="student.html#acalender"><li>Academic Calender</li></a>
+								<a href="admission.html"><li>Admission</li></a>
+								<a href="student.html#ttable"><li>Time Table</li></a>
+								<a href="activities.html"><li>Activities</li></a> 
+							</ul>
+						</div>
+						<div col-md-6 style="margin: auto;">
+							<ul style="color: #cfd8dc; list-style: none;line-height: 3.5;" id="ql">
+								<a href="http://www.iqac.dauniv.ac.in/"><li>IQAC</li></a>
+								<a href="http://www.dauniv.ac.in/"><li>DAVV</li></a>
+								<a href="aboutus.html"><li>About Us</li></a>
+								<a href="#"><li>Contact Us</li></a>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-5" style="padding-top: 50px;">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.082143239356!2d75.8702331144361!3d22.687985834444195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcbff110bcb1%3A0xf4995d9a87d41cad!2sSchool+Of+Biochemistry!5e0!3m2!1sen!2sin!4v1542108004490"  frameborder="0" allowfullscreen class="img-thumbnail" style="height: 75%; width: 85%;display: block; margin-left: auto; margin-right: auto;"></iframe>			
+
+					<div class="developers">
+						<a href="#"><h3>Developers</h3></a>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-md-12" id="bgc">
+
+
+					<table align="center">
+						<tr>
+							<td>
+								<i class="far fa-copyright" id="c"></i>
+							</td>
+							<td>
+								<em>&nbsp;COPYRIGHT 2018&nbsp;|&nbsp;ALL RIGHTS RESERVED</em>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</footer>	
+
+
+</body>
+</html>

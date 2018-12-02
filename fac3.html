@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" href="img/dnalogo.gif">
+<title>School of Biochemistry</title>
+
+<head>
+	<title>Biochemistry</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	
+	<!-- Footer Font Cookie -->
+	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+	
+	<!--Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- Self-Made -->
+	<link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+
+
+	<!-- Header Jumbotron -->
+	<div class="container-fluid mainhead">
+		<div class="container jumbotron">
+			<div class="row">	
+				<div class="col-md-2 col-xs-2 col-sm-2">
+					<a href="index.html"><img src="img/logo.png" class="logo"></a>		
+				</div>
+				<div class="col-md-8 col-xs-8 col-sm-8 institute">
+					<h1>School of Bi<i class="fas fa-atom"></i>chemistry<span class="estd">Estd. 1984</span><br><span class="davv">Devi Ahilya Vishwavidyalaya, Indore (M.P.)</span></h1>
+				</div>
+				<div class="col-md-2 col-xs-2 col-sm-2">
+					<img src="img/dnasmall.gif" class="gifcus">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	
+	<!-- Navigation Bar -->
+	<hr class="abovenav">
+	<div class="navicustom sticky-top">
+		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+			<div class="container-fluid" id="inner">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav m-auto">
+						<li class="nav-item"><a class="nav-link r p" href="index.html"><strong>HOME</strong></a></li>
+						<li class="nav-item"><a class="nav-link r p" href="aboutus.html" style="width: 8em;"><strong>ABOUT US</strong></a></li>
+						<li class="nav-item dropdown"><a class="nav-link r p" style="width: 9em;" ><strong>PROGRAMS &nbsp;</strong><i class="fas fa-caret-down"></i></a>
+							<div class="dropdown-menu ">
+								<div class="dropdown-item" id="dr"><a href="msc.html" >M.Sc.</a></div>
+								<div class="dropdown-item" id="dr"><a href="phd.html">Ph.D.</a></div>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link r p" href="faculty.html"><strong>FACULTY</strong></a></li>
+						<li class="nav-item"><a class="nav-link r p" href="researches.html"><strong>RESEARCHERS</strong></a></li>
+						<li class="nav-item"><a class="nav-link r p" href="activities.html"><strong>ACTIVITIES</strong></a></li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link r p" href="student.html" style="width: 8em;"><strong>STUDENTS&nbsp;</strong><i class="fas fa-caret-down"></i></a>
+							<div class="dropdown-menu ">
+								<div class="dropdown-item" id="dr"><a href="student.html" >Academic Calender</a></div>
+								<div class="dropdown-item" id="dr"><a href="student.html">Course Material &amp; Syllabus</a></div>	
+								<div class="dropdown-item" id="dr"><a href="student.html">Time Table</a></div>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link r p" target="_blank" href="http://www.dauniv.ac.in/"><strong>DAVV</strong></a></li>
+					</ul>					
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	<!-- Side Nav -->
+
+	<div class="icon-bar">
+		<a href="student.html#student-timetable" class="timetable" data-toggle="tooltip" title="Time Table" data-placement="right"><i class="far fa-clipboard"></i><div class="icon-bar-title">Time Table</div></a>
+		<a href="student.html#student-syllabus" class="syllabus" data-toggle="tooltip" title="Syllabus" data-placement="right"><i class="fas fa-book"></i><div class="icon-bar-title">Syllabus</div></a> 
+		<a href="student.html#student-calender" class="calendar"  data-toggle="tooltip" title="Calender" data-placement="right"><i class="fas fa-calendar-alt"></i><div class="icon-bar-title">Calender</div></a> 
+		<a href="activities.html" class="notices" data-toggle="tooltip" title="Notices" data-placement="right"><i class="fas fa-bell"></i><div class="icon-bar-title">Notices</div></a> 
+		<script>
+			$(document).ready(function(){
+				$('[data-toggle="tooltip"]').tooltip();   
+			});
+		</script>
+	</div>
+
+
+	<!-- Faculty Body -->
+	<div class="container-fluid fac-back">
+		<div class="container fac">
+			<div class="fac-profile">
+				<img class="fac-image-lg" src="img/react.png">
+				<img class="fac-image-profile img-thumbnail" src="img/fac3.jpg" alt="profile image example">
+				<div class="fac-profile-title text-center">
+					<h1>Dr. Meeta Jain</h1>
+					<p><strong>Reader</strong><br>School Of Biochemistry, DAVV, Indore<br><strong>Ph.D</strong> Devi Ahilya Vishwavidyalaya, Indore (1995)<br><em>meetajainind@yahoo.com</em></p>
+				</div>
+			</div>
+			<div class="fac-body">
+				<section>
+					<div class="fac-subhead">
+						<h2>RESEARCH AREAS</h2>
+					</div>
+					<div class="fac-content">
+						<p>
+							At present, research work on two major thrust areas is going on in my lab - metal stress and osmotic stress in relation to chlorophyll and nitrogen metabolism. Research work covers the studies on regulatory enzymes of chlorophyll metabolism, such as, delta-amino levulinic acid dehydratase, delta-amino levulinic acid synthesizing system, chlorophyllase, etc. Work done includes analyzing the mode of action of selenium, arsenic and mercury on chlorophyll metabolism including the enzymes in excised greening maize leaves. Effect of trace element pollutants on some enzymes of nitrogen metabolism, such as, nitrate reductase, glutamate dehydrogenase and glutamate synthase have also been carried out. Studies on effect of cadmium, lead and osmotic stress on chlorophyll and nitrogen metabolism are going on. Plan to evaluate the mode of action of metallic toxicants, osmotic stress inducers, kinetic analysis and biochemical characterization of the enzymes isolated from metal and osmotic stress treated tissue. Further, studies of molecular levels are also planned.
+						</p>					
+					</div>
+				</section>
+				<section>
+					<div class="fac-subhead">
+						<h2>Ph.D STUDENTS</h2>
+					</div>
+					<div class="fac-content" id="publications">
+						<!-- <ol>
+							<li>Mr. Jayesh Vaishnav, working at School of Biochemistry, DAVV, Indore on the topic
+							“Effect of salt stress on chlorophyll metabolism and antioxidative system in maize”.</li>						
+						</ol> -->
+						<!-- <p>One research student, Ms. Juliana Sarangthem has been awarded Ph.D. degree in 2012 on
+							the topic “Effect of cadmium and lead on enzymes of chlorophyll metabolism and ammonia
+						assimilation”. </p> -->
+
+						<table class="table">
+							<caption class="table-caption">Ph.D. Awarded</caption>
+							<thead>
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Name</th>
+									<th scope="col">Year</th>
+									<th scope="col">Title</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">1</th>
+									<td>Ms. Juliana Sarangthem</td>
+									<td>2012</td>
+									<td>
+										Effect of cadmium and lead on enzymes of chlorophyll metabolism and ammonia assimilation
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">2</th>
+									<td>Mr. Sharad Saurabh</td>
+									<td>2015</td>
+									<td>
+										Purification and characterization of MBLs from wild species of genus Allium and cloning of genes.
+										<br>Co-supervisor: Dr. P. K. Singh
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">3</th>
+									<td>Ms. Swati Tiwary</td>
+									<td>2015</td>
+									<td>
+										Osmotic stress- induced changes on chlorophyll metabolism    and antioxidative system in maize leaves.
+									</td>
+								</tr>
+
+								<tr>
+									<th scope="row">4</th>
+									<td>Mr. Prakash Malviya</td>
+									<td>2016</td>
+									<td>
+										Studies on physiological and biochemical changes in       relation to grain yield, quality and drought tolerance in durum wheat genotypes.
+										<br> Co-supercisor: Dr. Sai Prasad
+									</td>
+								</tr>
+
+
+								<tr>
+									<th scope="row">5</th>
+									<td>Ms. Seema Kelotra</td>
+									<td>2016</td>
+									<td>
+										Ligand binding studies with some caspases using  computational methods.
+									</td>
+								</tr>
+
+
+								<tr>
+									<th scope="row">6</th>
+									<td>Mrs Vaishali Mourya</td>
+									<td>2017</td>
+									<td>
+										Associationmapping for protein content in soybean germplasm lines.
+<br>Co-supervisor: Dr. Anita Rani.
+									</td>
+								</tr>
+
+
+								<tr>
+									<th scope="row">7</th>
+									<td>Mr Jayesh Vaishnav</td>
+									<td>----</td>
+									<td>
+										Effect of salt stress on chlorophyll metabolism and antioxidative system in maize.
+									</td>
+								</tr>
+
+
+
+							</tbody>
+						</table>
+
+					</div>
+				</section>
+				<section>
+					<div class="fac-subhead">
+						<h2>PUBLICATIONS</h2>
+					</div>
+					<div class="fac-content" id="publications">		
+						<p>List of Publications :-</p>			
+						<ol>
+							<li>Meeta Jain, Mini Mittal and Rekha Gadre: "Effect of PEG-6000 imposed water deficit on chlorophyll metabolism in maize leaves" Journal of Stress Physiology and Biochemistry (In press).</li>					
+							<li>Priyanka Gupta, Meeta Jain, Juliana Sarangthem, and Rekha Gadre: "Inhibition of 5-Aminolevulinic Acid Dehydratase by Mercury in Excised Greening Maize Leaf Segments" Plant Physiology and Biochemistry 62: 63-69 (2013).</li>					
+							<li>Prakash Malviya, S.V. Sai Prasad, Meeta Jain and Amit Gautam: "Assessing grain yield and its components in durum wheat using canopy temperature as selection parameter under early heat stress conditions" Progressive Research 7 (special): 122-126 (2012).</li>	
+							<li>Juliana Sarangthem, Meeta Jain and Rekha Gadre: "Inhibition of δ-Aminolevulinic Acid Dehydratase Activity by Cadmium in Excised Etiolated Maize Leaf Segments during Greening" Plant, Soil and Environment 57(7): 332-337 (2011). </li>					
+							<li>Sangeeta Jain, Meeta Jain and C.S. Sharma: "Changes In Respiratory Function And Lipid Profile Due To Yoga And Relaxation Techniques" International Journal of Pharmacology and Biological Sciences. 5(2): 79-84 (2011).</li>					
+							<li>Meeta Jain, Swati Tiwary and Rekha Gadre: "Sorbitol Induced Changes in Various Growth and Biochemical Parameters in Maize". Plant, Soil and Environment. 56(6): 263-267 (2010).</li>					
+							<li>Sangeeta  Jain, Meeta Jain and C. S. Sharma: "Effect of  Yoga  and Relaxation Techniques on Cardiovascular System". Indian Journal of Physiology and Pharmacology 54(2):183-185 (2010).</li>					
+							<li>Meeta Jain, Anuradha Kaushal, Priyanka Gupta and Rekha Gadre: "Osmotic stress Induced Reduction in Chlorophyll Formation in Bean Leaf Discs". The Journal of Plant Science Research. 25 (1), 53 (2009).</li>		
+							<li>Prakash Malviya, S.V. Sai Prasad, Meeta Jain, Jang Bahadur Singh and Amit Gautam:
+							“Identification of imperative selection parameters for increasing grain yield and grain quality  under early sown and moisture conditions in durum wheat (Triticum durum esf.)”. Progressive Research 9 (1): 276-280 (2014). ISSN: 0973-6417, NAAS Rating: 3.4. ISSN: 0973-6417.</li>		
+							<li>Seema Kelotra, Meeta Jain, Ankit Kelotra, Ish Jain, Srinivas Bandaru, Anuraj    Nayarisseri and Anil Bidwai: “An in silico Appraisal to Identify High Affinity Anti-Apoptotic Synthetic Tetrapeptide Inhibitors Targeting the Mammalian Caspase 3 Enzyme”.  Asian Pacific Journal of Cancer Prevention, Vol. 15, 10137-10242 (2014). 
+							Print ISSN: 1513-7368.</li>
+							<li>Meeta Jain, Menka Thapa, Prachi Pradhan, Seema Meena, Jayesh Vaishnav and Rekha 
+							Gadre: “Effect of arsenic on -aminolevulinic acid formation in greening maize leaf segments”. Indian Journal of Plant Physiology,  20(3):191–196 (July–September 2015). ISSN: 0019-5502.</li>
+							<li>Meeta Jain, Arpita Shrivastava, Prakash Malviya and Jayesh Vaishnav. “Comparative 
+							Evaluation of Biochemical Characteristics in three Genotypes of Maize (Zea mays)”. Indian Journel of Agriculture Biochemistry, 28(1): 61-64 (2015). ISSN: 0970-6399.</li>
+							<li>Jayesh Vaishnav and Meeta Jain. “Influence of halopriming and hydropriming on seed germination and growth characteristics of Zea mays L. cv. GSF-2 under salt stress”. Research Journal of Chemistry and Environment 19(10): 1-6 (October 2015). ISSN: 0972-0626.</li>
+							<li>Vaishali Mourya, Vineet Kumar, Anita Rani, Meeta Jain and S. M. Husain. “Near- Infrared Reflectance Spectroscopy for Protein Content in Soybean Flour and  Screening of Germplasm Across Different Countries”. Agricultural Research 5(1):29–34 (March 2016). ISSN: 2249-720.</li>
+							<li>Swati Tiwary, Rekha Gadre and Meeta Jain. “Osmotic Stress Induced Changes in Chlorophyll Biosynthesis and Antioxidative System in Light Grown Maize Leaves”. Journal of Bioinnovation 5(1): 123-137 (2016). ISSN: 2277- 8330.</li>
+							<li>Swati T., and Meeta J. “Impact of Osmotic Stress on Biochemical and Physiological   Parameters in Zea mays L. cv. Ganga Safed-2 Genotype, Maize Genomics and Genetics, 7(01): 1-14 (doi: 10.5376/mgg.2016.07.0001) (2016). ISSN: 1925-1971.</li>
+							<li>Prakash Malviya, S.V. Saiprasad, Meeta Jain and Divya Ambati: Genetic divergence and gene source studies in durum wheat genotypes under early sown and moisture stress conditions. Indian Journal of Plant Genetic Resources. 30(2): 144- 148, 2017. ISSN: 0971-8184.</li>
+							<li>Influence of Selenium Supplementation on δ-Aminolevulinic Acid Formation in Greening Maize Leaf Segments. Meeta Jain, Mahija Panwar and Rekha Gadre: Research Journal of Phytochemistry, 11 (3): 111-117, 2017. ISSN: 1819-3471.</li>
+							<li>Modulation of δ-Aminolevulinic Acid Dehydratase Activity by the Sorbitol Induced Osmotic Stress in Maize Leaf Segments. M. Jain, S. Tiwary, and R. Gadre: Biochemistry (Moscow), 2018, Vol. 83, No. 1, pp. 32-36. ISSN: 0006-2979.</li>
+							<li>Prakash Malviya, S.V. Sai Prasad, Meeta Jain and Divya Ambati.  Canopy Temperature as Selection Parameter for improving Grain Yield under early Heat Stress conditions in Durum Wheat (2018). Research Journal Multilogic in Science (Accepted).</li>			
+						</ol>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+
+	<!-- ---------------UpArrow-------------------------- -->
+	<a href="#" class="back-to-top" style="display: inline;">
+		<i class="fa fa-arrow-circle-up"></i>
+	</a>
+
+
+
+	<!-- ---------------------Footer -------------------------- -->
+	<footer>
+		<div class="container-fluid" id="cf">
+			<div class="row" id="e">
+				<div class="col-md-3" style="padding-top: 20px; padding-bottom: 20px;">
+
+					<table  align="center">
+						<tr align="center">
+							<td><a href="index.html"><img src="img/davvlogotrans.png" class="image-responsive" width="128px" height="118px"></a></td>
+						</tr>
+						<tr align="center" valign="bottom">
+							<td ><h3>School of<span style="color: #23ff3f; font-size: 30px; font: normal 30px 'Cookie', cursive;">&nbsp;Biochemistry</span></h3></td>
+						</tr>
+
+					</table>
+
+					<hr style="background-color: grey; width: 100%;">
+
+					<table align="center" id="it">
+						<tr >
+							<td width="58px" valign="top"  >
+								<i class="fa fa-map-marker-alt "></i>
+							</td>
+							<td style="line-height: 1;">
+								<span>Khandwa Rd, D.A.V.V., Bhawakuwa, Davv Takshila Parisar, Indore, Madhya Pradesh 452001</span> 
+							</td>
+						</tr>
+
+						<tr style="height: 42px;">
+							<td>
+								<i class="fas fa-phone-volume"></i>
+							</td>
+							<td>
+
+								<span>0731-2460276&nbsp;&nbsp;,&nbsp;&nbsp;0731-2590783</span>
+							</td>
+						</tr>
+						<tr style="height: 42px;">
+							<td>
+								<i class="fas fa-envelope-open"></i>
+							</td>
+							<td>
+								<span>support@company.com</span>
+							</td>
+						</tr>
+					<!-- 	<tr style="height: 42px;">
+							<td>
+								<i class="fas fa-fax"></i>
+							</td>
+							<td>
+								<span>fax number</span>
+							</td>
+						</tr> -->
+					</table>
+				</div>
+				<div class="col-md-4" style="padding-top: 60px; " >
+					<h4 align="center">
+						QUICK LINKS
+					</h4>
+					<div class="row">
+						<div col-md-6 style="margin: auto;"> 
+							<ul style="color: #cfd8dc; line-height: 3.5; list-style: none; " id="ql">
+								<a href="student.html#acalender"><li>Academic Calender</li></a>
+								<a href="admission.html"><li>Admission</li></a>
+								<a href="student.html#ttable"><li>Time Table</li></a>
+								<a href="activities.html"><li>Activities</li></a> 
+							</ul>
+						</div>
+						<div col-md-6 style="margin: auto;">
+							<ul style="color: #cfd8dc; list-style: none;line-height: 3.5;" id="ql">
+								<a href="http://www.iqac.dauniv.ac.in/"><li>IQAC</li></a>
+								<a href="http://www.dauniv.ac.in/"><li>DAVV</li></a>
+								<a href="aboutus.html"><li>About Us</li></a>
+								<a href="#"><li>Contact Us</li></a>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-5" style="padding-top: 50px;">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.082143239356!2d75.8702331144361!3d22.687985834444195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcbff110bcb1%3A0xf4995d9a87d41cad!2sSchool+Of+Biochemistry!5e0!3m2!1sen!2sin!4v1542108004490"  frameborder="0" allowfullscreen class="img-thumbnail" style="height: 75%; width: 85%;display: block; margin-left: auto; margin-right: auto;"></iframe>			
+
+					<div class="developers">
+						<a href="#"><h3>Developers</h3></a>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-md-12" id="bgc">
+
+
+					<table align="center">
+						<tr>
+							<td>
+								<i class="far fa-copyright" id="c"></i>
+							</td>
+							<td>
+								<em>&nbsp;COPYRIGHT 2018&nbsp;|&nbsp;ALL RIGHTS RESERVED</em>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</footer>	
+
+</body>
+</html>

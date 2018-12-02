@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+#main .row{
+ margin-left: 0;
+ margin-right: 0;
+}
+
+#main #sub #col hr{
+	margin-top: 45px;
+	border: 2px grey solid;
+	border-radius: 40px;
+}
