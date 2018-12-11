@@ -1,0 +1,107 @@
+#Activities .cont-marg{
+  margin-top: 48px;
+}
+
+#Activities .container h1{
+     text-align: center;
+     margin-top: 6%;
+     font-family: 'Roboto Slab', serif;
+     font-weight: 10;
+}
+
+
+#Activities .container .jumbotron{
+
+  padding: 0rem 0rem;
+  background-color: #7c8c65f0;
+  color: white;
+  height: 12vw;
+  position: relative;
+  transition: all .3s ease;
+  box-shadow: 10px 17.3px 50px 0 rgba(146, 128, 128, 0.72); margin-left: 10px;
+}
+
+#Activities .container .jumbotron:hover{
+
+  box-shadow: 0 5px 10px 0 rgba(146, 128, 128, 0.72);
+  transform: translate(0px,-5px);
+}
+
+#Activities .container .jumbotron .col-md-4{
+  background-image: url("download.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+#Activities .container .jumbotron .col-sm-4{
+  background-image: url("download.jpg");
+  background-size: cover;
+  background-position: center center;
+} 
+
+
+#Activities .container .jumbotron .actpelement{
+
+  font-size: 0.9rem;
+}
+
+#Activities .container .jumbotron .btn-sm{
+    font-size: 13px; 
+}
+
+
+@media screen and (max-width: 786px){
+
+   #Activities .container .jumbotron .actpelement{
+     font-size: 10px;
+   }
+
+   #Activities .container .jumbotron h3{
+    font-size: 20px;
+  }
+
+  #Activities .container .jumbotron .btn-sm{
+    font-size: 9px; 
+  }
+
+} 
+
+@media screen and (max-width: 575px){
+
+    #Activities .cont-marg{
+      margin-top: 0px;
+    }
+
+    #Activities .container .display-4{
+      font-size: 35px;
+    }
+
+    
+    #Activities .container .jumbotron h3{
+      font-size: 13px;
+    }
+
+    #Activities .container .jumbotron .col-sm-4{
+      background-image: url("download.jpg");
+      background-size: cover;
+      width: 30%;
+    } 
+
+    #Activities .container .jumbotron .col-sm-8{
+      width: 70%;
+    }
+
+    #Activities .container .jumbotron .actpelement{
+      font-size: 7px;
+    }
+
+    #Activities .container .jumbotron .btn-sm{
+      font-size: 6px; 
+      padding: 0.15rem 0.4rem;
+    }
+
+}
+
+.text-block{
+  background-color: black;
+}

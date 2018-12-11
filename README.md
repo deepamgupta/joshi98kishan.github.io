@@ -1,2 +1,4 @@
-# joshi98kishan.github.io
-My first github page!! ...OH yeah
+# deepamgupta.github.io
+Repository for The Website : SOB, DAVV, Indore
+
+Team: Kishan joshi , Deepam Gupta , Rajat Karahe , Samyak Jain
